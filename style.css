@@ -94,7 +94,7 @@
 .link p{
     color: blue;
 }
-
+/* subscrib section */
 .subscrib-to-any-palan{
     margin: 75px auto;
     width: 600px;
@@ -156,7 +156,7 @@
     color: blue;
     margin-bottom: 30px;
 }
-
+/* login section */
 .login-page{
     margin: 75px auto;
     width: 600px;
@@ -208,4 +208,127 @@
     font-size: 12px;
 }
 
+@media (max-width:480px) {
+    .business-container{
+        margin: 75px auto;
+        width: 357px;
+        height: 400px;
+    }
+    .business-container h1{
+        margin-bottom: 27px;
+        padding-top: 87px;
+        padding-left: 40px;
+        padding-right: 142px;
+        font-size: 35px;
+        
+    }
+    .business-container p{
+       
+       
+        padding-left: 40px;
+        padding-right: 14px;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-bottom: 30px;
+        
+    }
+    
+    .business-container .Business-btn{
+        margin-left: 40px;
+        font-size: 19px;
+    }
 
+    /* profile section */
+
+.your-profiles{
+    margin: 75px auto;
+    width: 357px;
+    height: 360px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    margin-bottom: 30px;
+}
+.your-profiles .heading{
+    margin-bottom: 27px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 93px;
+    font-size: 30px;
+}
+.your-profiles .text{
+    margin-bottom: 27px;
+    padding-left: 40px;
+    padding-right: 26px;
+}
+
+.img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 60px;
+    
+}
+.img img{
+    margin-left: 40px;
+    width: 20%;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 25px;
+    
+}
+.link{
+    padding: 10px 40px;
+    width: 100%;
+ }
+.link p{
+    color: blue;
+}
+
+/* subscrib section */
+.subscrib-to-any-palan{
+    margin: 75px auto;
+    width: 357px;
+    height: 655px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+
+.subscrib-to-any-palan .tour-img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+ 
+.subscrib-to-any-palan h3{
+    padding-right: 30px;
+}
+ 
+.subscrib-to-any-palan p{
+    padding-right: 33px;
+}
+
+.subscrib-to-any-palan button{
+   font-size: 17px;
+}
+/* login section */
+.login-page{
+    margin: 75px auto;
+    width: 357px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    text-align: center;
+    
+}
+
+
+
+
+.login-page .content{
+    padding: 0px 86px;
+    font-size: 8px;
+}
+
+}
