@@ -209,6 +209,9 @@
 }
 
 @media (max-width:480px) {
+    *{
+        margin-left: 6px;
+    }
     .business-container{
         margin: 75px auto;
         width: 357px;
